@@ -1,0 +1,33 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="#04060C" />
+                    <corners android:radius="50dp" />
+                </shape>
+            </item>
+            <item android:drawable="@android:drawable/ic_menu_delete"
+                android:gravity="center" />
+        </layer-list>
+    </item>
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="#FFEB3B" />
+                    <corners android:radius="50dp" />
+                </shape>
+            </item>
+            <item android:drawable="@android:drawable/ic_menu_delete"
+                android:gravity="center" />
+        </layer-list>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#FF888888" />
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+</selector>
+
